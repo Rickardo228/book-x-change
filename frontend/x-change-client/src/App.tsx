@@ -1,21 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BookCard } from "./components/molecules/BookCard";
 
-const App: React.FC = () => {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    <strong>x-change-client</strong>
-                </p>
-                <p>
-                    Run 'yarn storybook' to see a demo for semantic-ui-react Button
-                </p>
-            </header>
-        </div>
-    );
+class App extends React.Component {
+  render() {
+    return <h1>Hello World</h1>;
+  }
 }
 
 export default App;
